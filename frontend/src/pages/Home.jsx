@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import SearchBar from "../components/SearchBar";
 import StatusFilter from "../components/StatusFilter";
 import TicketTable from "../components/TicketTable";
-import { getTickets } from "../api/ticketApi";
+import { getTickets } from "../api/Ticketapi";
 
 function Home() {
   const [tickets, setTickets] = useState([]);

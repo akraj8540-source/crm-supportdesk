@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { getTicketById, updateTicket } from "../api/ticketApi";
+import { getTicketById, updateTicket } from "../api/TicketApi";
 
 function TicketDetails() {
   const { ticketId } = useParams();

@@ -1,13 +1,14 @@
 import axios from "axios";
 
-const API = `${process.env.API_URL}/api/tickets`;
 
+const API = `${import.meta.env.VITE_API_URL}/api/tickets`;
 export const getTickets = async (
   search = "",
   status = ""
 ) => {
   const response = await axios.get(API, {
     params: {
+
       search,
       status,
     },
