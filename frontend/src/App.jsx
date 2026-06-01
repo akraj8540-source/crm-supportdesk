@@ -1,0 +1,30 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Home from "./pages/Home";
+import CreateTicket from "./pages/CreateTicket";
+import TicketDetails from "./pages/TicketDetails";
+import Navbar from "./components/Navbar";
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+
+        <Route
+          path="/create"
+          element={<CreateTicket />}
+        />
+
+        <Route
+          path="/ticket/:ticketId"
+          element={<TicketDetails />}
+        />
+      </Routes>
+    </BrowserRouter>
+  );
+}
+
+export default App;
