@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:3000/api/tickets";
+const API = `${process.env.API_URL}/api/tickets`;
 
 export const getTickets = async (
   search = "",
