@@ -1,0 +1,11 @@
+{
+  "remoteName": "origin",
+  "projects": [
+    {
+      "id": "prj_jMqlcBrfKALCffI0Ot1e6rDILHhn",
+      "name": "crm-supportdesk",
+      "directory": "frontend",
+      "orgId": "team_7UWd4WnoY4Cp4UuTuqKUuwp4"
+    }
+  ]
+}
