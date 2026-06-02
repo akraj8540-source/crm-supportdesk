@@ -8,9 +8,7 @@ const app = express();
 
 app.use(cors({
     origin:[
-        "http://localhost:5173",
-        "https://crm-supportdesk-frontend.vercel.app",
-        "https://crm-supportdesk-onrender.com"
+        "http://localhost:5173"
     ],
     credentials: true,
 }));
