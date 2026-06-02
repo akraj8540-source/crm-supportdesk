@@ -7,8 +7,9 @@ const errorHandler = require("./middlewares/errorMiddleware");
 const app = express();
 
 app.use(cors({
-    origin:[
-        "https://crm-supportdesk-t314-liard.vercel.app/"
+    origin: [
+        "http://localhost:5173",
+        "https://crm-supportdesk-t314-liard.vercel.app"
     ],
     credentials: true,
 }));
