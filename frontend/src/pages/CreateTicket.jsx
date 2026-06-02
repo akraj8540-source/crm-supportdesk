@@ -1,6 +1,6 @@
 import { useNavigate, Link } from "react-router-dom";
 import TicketForm from "../components/TicketForm";
-import { createTicket } from "../api/Ticketapi";
+import { createTicket } from "../api/TicketApi";
 
 function CreateTicket() {
   const navigate = useNavigate();
